@@ -1,0 +1,23 @@
+/*row {
+    height: 100px;
+    background-color: green;
+}
+.container {
+    margin-top: 50px;
+    box-shadow: 0 0 30px black;
+    padding:0 15px 0 15px;
+}*/
+
+.drop-shadow {
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+.container .drop-shadow {
+    padding-left:0;
+    padding-right:0;
+}
+
+
+
+/*http://stackoverflow.com/questions/18262972/box-shadow-on-bootstrap-3-container*/
